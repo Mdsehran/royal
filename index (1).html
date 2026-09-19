@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Royal and Co | Data and Software Services, Bengaluru</title>
+<meta name="description" content="Royal and Co builds data platforms, custom software, cloud automation and AI solutions from Richmond Town, Bengaluru.">
+<link rel="canonical" href="https://royalandco.site/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230F1F4B'/><text x='50' y='68' font-size='58' text-anchor='middle' fill='%23C9A24B' font-family='Georgia,serif'>R</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Royal and Co","url":"https://royalandco.site","email":"hr.ops@royalandco.site","telephone":"+91 99729 27382","address":{"@type":"PostalAddress","streetAddress":"#57, Wellington Street, Richmond Town","addressLocality":"Bengaluru","addressRegion":"Karnataka","postalCode":"560025","addressCountry":"IN"}}
+</script>
+<style>
+:root{--ink:#0F1F4B;--text:#26304A;--muted:#5B6479;--paper:#F6F7FB;--white:#fff;--line:#DDE1EC;--royal:#2B45B5;--gold:#B58A2F;--r:10px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.65 "Public Sans",system-ui,sans-serif;color:var(--text);background:var(--white)}
+h1,h2,h3{font-family:"Newsreader",Georgia,serif;color:var(--ink);line-height:1.15;font-weight:600}
+h1{font-size:clamp(2.4rem,5.5vw,4rem);letter-spacing:-.02em}
+h2{font-size:clamp(1.8rem,3.4vw,2.5rem);letter-spacing:-.01em;margin-bottom:.6rem}
+h3{font-size:1.25rem;margin-bottom:.35rem}
+a{color:var(--royal)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:88px 0}
+.alt{background:var(--paper)}
+.lead{max-width:60ch;color:var(--muted);margin-bottom:2.2rem}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font:600 1.35rem "Newsreader",serif;color:var(--ink);text-decoration:none}
+.logo b{color:var(--gold)}
+nav{display:flex;gap:26px;align-items:center;font-size:.95rem}
+nav a{color:var(--text);text-decoration:none}
+nav a:hover{color:var(--royal)}
+.btn{display:inline-block;background:var(--ink);color:#fff!important;padding:12px 22px;border-radius:var(--r);font-weight:600;text-decoration:none;font-size:.95rem}
+.btn:hover{background:var(--royal)}
+.btn.ghost{background:transparent;color:var(--ink)!important;border:1.5px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff!important}
+.hero{padding:84px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero p{max-width:52ch;margin:1.2rem 0 1.8rem;font-size:1.12rem;color:var(--muted)}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+/* pipeline motif: the hero's one memorable element */
+.pipe{background:var(--ink);border-radius:16px;padding:28px;color:#DCE3FF;font-size:.9rem}
+.pipe h4{font:600 .95rem "Public Sans";color:#fff;margin-bottom:18px}
+.stage{display:flex;align-items:center;gap:14px;padding:13px 16px;border:1px solid rgba(255,255,255,.16);border-radius:8px;background:rgba(255,255,255,.04);position:relative}
+.stage+.stage{margin-top:22px}
+.stage+.stage::before{content:"";position:absolute;left:28px;top:-23px;width:2px;height:22px;background:linear-gradient(var(--gold),transparent);background-size:2px 200%;animation:flow 1.8s linear infinite}
+.stage i{width:9px;height:9px;border-radius:50%;background:var(--gold);flex:none}
+.stage span{margin-left:auto;color:#9FB0EE;font-size:.8rem}
+@keyframes flow{to{background-position:0 -100%}}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:28px}
+.alt .card{background:var(--white)}
+.card p{color:var(--muted);font-size:.98rem}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:s;border-top:2px solid var(--ink)}
+.steps li{list-style:none;padding:22px 18px 0 0;counter-increment:s}
+.steps li::before{content:counter(s);display:block;font:600 1.6rem "Newsreader",serif;color:var(--gold);margin-bottom:6px}
+.steps p{font-size:.94rem;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips span{border:1px solid var(--line);background:var(--white);padding:8px 16px;border-radius:99px;font-size:.92rem;font-weight:500;color:var(--ink)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.tick{list-style:none;padding:0}
+.tick li{padding:10px 0 10px 28px;border-bottom:1px solid var(--line);position:relative}
+.tick li::before{content:"";position:absolute;left:2px;top:19px;width:12px;height:7px;border-left:2.5px solid var(--gold);border-bottom:2.5px solid var(--gold);transform:rotate(-45deg)}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-weight:600;color:var(--ink);list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--royal)}
+details[open] summary::after{content:"\2212"}
+details p{margin-top:10px;color:var(--muted);max-width:68ch}
+/* clients: hidden until real clients are added in the script below */
+#clients[hidden]{display:none}
+.marquee{overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.track{display:flex;gap:56px;width:max-content;animation:slide 40s linear infinite}
+.track span{font:600 1.5rem "Newsreader",serif;color:var(--muted);white-space:nowrap}
+@keyframes slide{to{transform:translateX(-50%)}}
+.contact dl{display:grid;grid-template-columns:110px 1fr;gap:14px 12px}
+.contact dt{font-weight:600;color:var(--ink)}
+footer{background:var(--ink);color:#B9C3E6;padding:44px 0;font-size:.92rem}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer a{color:#fff}
+@media(max-width:860px){
+ nav a:not(.btn){display:none}
+ .hero .wrap,.two{grid-template-columns:1fr;gap:36px}
+ .steps{grid-template-columns:1fr;border-top:0}
+ .steps li{border-top:2px solid var(--ink);padding-bottom:14px}
+ section{padding:64px 0}
+}
+@media(prefers-reduced-motion:reduce){.track,.stage::before{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+ <a class="logo" href="#top">Royal<b>&amp;</b>Co</a>
+ <nav aria-label="Main">
+  <a href="#services">Services</a><a href="#process">Process</a><a href="#stack">Stack</a><a href="#careers">Careers</a>
+  <a class="btn" href="#contact">Contact us</a>
+ </nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+ <div>
+  <h1>Data and software, built to run in production.</h1>
+  <p>Royal and Co designs data platforms, custom software and cloud automation for teams that need systems they can trust, from first architecture to day-to-day operations.</p>
+  <div class="cta"><a class="btn" href="#contact">Start a project</a><a class="btn ghost" href="#services">See our services</a></div>
+ </div>
+ <div class="pipe" aria-label="Example delivery pipeline">
+  <h4>How a typical engagement flows</h4>
+  <div class="stage"><i></i>Sources and APIs<span>ingest</span></div>
+  <div class="stage"><i></i>Pipelines and storage<span>transform</span></div>
+  <div class="stage"><i></i>Services and models<span>serve</span></div>
+  <div class="stage"><i></i>Dashboards and alerts<span>monitor</span></div>
+ </div>
+</div></section>
+
+<section id="clients" class="alt" hidden><div class="wrap">
+ <h2>Trusted by teams we work with</h2>
+ <div class="marquee" style="margin-top:28px"><div class="track" id="track"></div></div>
+</div></section>
+
+<section id="services"><div class="wrap">
+ <h2>What we build</h2>
+ <p class="lead">Six practice areas, one team. We cover the full path from architecture to deployment so you don't have to coordinate several vendors.</p>
+ <div class="grid">
+  <div class="card"><h3>Custom software</h3><p>Web platforms, internal tools and backend services designed around your workflow, with clean APIs and documented code.</p></div>
+  <div class="card"><h3>Data engineering</h3><p>Pipelines, warehouses and lakehouses that turn scattered data into a reliable, queryable source of truth.</p></div>
+  <div class="card"><h3>Analytics and dashboards</h3><p>Reporting your teams actually open: defined metrics, fast queries and views for each audience.</p></div>
+  <div class="card"><h3>Cloud and DevOps</h3><p>Infrastructure as code, CI/CD, containers and monitoring on AWS, Azure or GCP.</p></div>
+  <div class="card"><h3>AI and automation</h3><p>Practical machine learning and workflow automation, scoped to a measurable business outcome.</p></div>
+  <div class="card"><h3>Quality engineering</h3><p>Test automation, performance testing and release checks that catch problems before customers do.</p></div>
+ </div>
+</div></section>
+
+<section id="process" class="alt"><div class="wrap">
+ <h2>How we deliver</h2>
+ <p class="lead">A predictable sequence with a clear output at every stage.</p>
+ <ol class="steps" style="padding:0">
+  <li><h3>Discover</h3><p>Goals, constraints and success measures agreed in writing.</p></li>
+  <li><h3>Design</h3><p>Architecture, data model and delivery plan reviewed with you.</p></li>
+  <li><h3>Build</h3><p>Short iterations with working demos and code review.</p></li>
+  <li><h3>Launch</h3><p>Automated deployment, load checks and a rollback plan.</p></li>
+  <li><h3>Operate</h3><p>Monitoring, support and continuous improvement.</p></li>
+ </ol>
+</div></section>
+
+<section id="stack"><div class="wrap">
+ <h2>Technology we work with</h2>
+ <p class="lead">We choose tools to fit the problem, not the other way round.</p>
+ <div class="chips">
+  <span>Java</span><span>Spring Boot</span><span>Python</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>MongoDB</span><span>Kafka</span><span>Spark</span><span>Airflow</span><span>dbt</span><span>AWS</span><span>Azure</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span>
+ </div>
+</div></section>
+
+<section class="alt"><div class="wrap two">
+ <div>
+  <h2>How we handle your work</h2>
+  <p class="lead" style="margin-bottom:0">Standard practice on every engagement, not an upsell.</p>
+ </div>
+ <ul class="tick">
+  <li>Every change reviewed and tested through CI before release</li>
+  <li>Least-privilege access and managed secrets</li>
+  <li>Encryption in transit and at rest by default</li>
+  <li>NDA and IP assignment agreed before work begins</li>
+  <li>Runbooks and documented handover at the end</li>
+ </ul>
+</div></section>
+
+<section><div class="wrap">
+ <h2>Industries we serve</h2>
+ <p class="lead">Data and software problems look similar across sectors. The domain knowledge is what differs.</p>
+ <div class="chips"><span>Fintech</span><span>Retail and e-commerce</span><span>Healthcare</span><span>Logistics</span><span>Education</span><span>SaaS and startups</span></div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+ <h2>Ways to work with us</h2>
+ <p class="lead">Pick the model that fits your stage and budget.</p>
+ <div class="grid">
+  <div class="card"><h3>Fixed-scope project</h3><p>Defined deliverables, timeline and price. Best when requirements are clear.</p></div>
+  <div class="card"><h3>Dedicated team</h3><p>Engineers embedded with your team for ongoing product or platform work.</p></div>
+  <div class="card"><h3>Support retainer</h3><p>Monthly hours for maintenance, monitoring and improvements after launch.</p></div>
+ </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+ <h2>Common questions</h2>
+ <div style="max-width:820px;margin-top:20px">
+  <details><summary>How do we get started?</summary><p>Send us a short description of the problem. We reply within two working days to set up a discovery call.</p></details>
+  <details><summary>Do you sign an NDA?</summary><p>Yes. We sign an NDA and agree IP ownership before any work begins.</p></details>
+  <details><summary>Who owns the code and data?</summary><p>You do. Source code, infrastructure definitions and data remain your property.</p></details>
+  <details><summary>Can you work with our existing team?</summary><p>Yes. We regularly join in-house teams, follow your tooling and hand over with documentation.</p></details>
+ </div>
+</div></section>
+
+<section id="careers" class="alt"><div class="wrap two">
+ <div>
+  <h2>Careers</h2>
+  <p class="lead">We hire engineers and analysts who like solving real problems and explaining their thinking. Send your CV and the role you are interested in to <a href="mailto:hr.ops@royalandco.site">hr.ops@royalandco.site</a>.</p>
+  <p><strong>Royal and Co never charges candidates any fee at any stage of hiring.</strong></p>
+ </div>
+ <ul class="tick">
+  <li>Backend and full-stack engineers</li>
+  <li>Data and cloud engineers</li>
+  <li>QA and test automation engineers</li>
+  <li>Interns and early-career talent</li>
+ </ul>
+</div></section>
+
+<section id="contact"><div class="wrap two contact">
+ <div>
+  <h2>Talk to us</h2>
+  <p class="lead">Tell us what you are building and we will suggest a sensible first step.</p>
+  <a class="btn" href="mailto:hr.ops@royalandco.site?subject=Project%20enquiry">Email us</a>
+ </div>
+ <dl>
+  <dt>Address</dt><dd>#57, Wellington Street, Richmond Town,<br>Bengaluru - 560 025</dd>
+  <dt>Phone</dt><dd><a href="tel:+919972927382">+91 99729 27382</a></dd>
+  <dt>Email</dt><dd><a href="mailto:hr.ops@royalandco.site">hr.ops@royalandco.site</a></dd>
+  <dt>Map</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=57+Wellington+Street+Richmond+Town+Bengaluru+560025" target="_blank" rel="noopener">Open in Google Maps</a></dd>
+ </dl>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div><strong style="color:#fff">Royal and Co</strong><br>#57, Wellington Street, Richmond Town, Bengaluru - 560 025<br>Ph: +91 99729 27382</div>
+ <div>&copy; <span id="yr">2026</span> Royal and Co. All rights reserved.<br><a href="mailto:hr.ops@royalandco.site">hr.ops@royalandco.site</a></div>
+</div></footer>
+
+<script>
+document.getElementById("yr").textContent=new Date().getFullYear();
+// Add REAL clients only, and only with their permission. The section stays hidden while this list is empty.
+const CLIENTS=[
+  // "Client Name",
+];
+if(CLIENTS.length){
+  const t=document.getElementById("track");
+  t.innerHTML=[...CLIENTS,...CLIENTS].map(n=>"<span>"+n+"</span>").join("");
+  document.getElementById("clients").hidden=false;
+}
+</script>
+</body>
+</html>
