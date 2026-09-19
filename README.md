@@ -19,3 +19,4 @@ Edit the `CLIENTS` array near the bottom of `index.html`. Add only clients who h
 - Add company registration details (CIN/LLPIN, GSTIN) to the footer once you have them.
 - Only keep technologies and services in the lists that you can actually deliver.
 - Set up email hosting for the domain so hr.ops@royalandco.site can receive mail, and consider a separate contact@ address for sales enquiries.
+
